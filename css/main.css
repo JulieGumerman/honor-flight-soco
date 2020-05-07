@@ -623,9 +623,6 @@ article .trip-pic {
       display: flex;
     }
 
-    .apply-for-it a {
-      color: ;
-    }
 
     .apply-for-it article {
       padding-bottom: 20px;
@@ -688,7 +685,6 @@ article .trip-pic {
     }
 
     .trip-pictures article figure {
-      width: ;
       flex-flow: column wrap;
       display: flex;
     }
@@ -723,7 +719,7 @@ article .trip-pic {
   }
 
   .thirds {
-    width: 30%;
+    width: 45%;
     flex-wrap: nowrap;
   }
 

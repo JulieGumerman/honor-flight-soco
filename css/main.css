@@ -129,7 +129,7 @@ h1 {
 }
 
 h2 {
-
+  font-size: 1.75em;
 }
 
 h3, h4 {
@@ -137,7 +137,7 @@ h3, h4 {
 }
 
 p {
-
+  font-size: 1em;
 }
 
 img {
@@ -222,7 +222,6 @@ footer {
 }
 
 footer .content-wrapper {
-  width: 55%;
   margin: 50px 0;
 }
 
@@ -230,11 +229,17 @@ footer .footer-content {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  flex-direction: column;
 }
 
 
 footer p {
   margin: 0;
+}
+
+footer address a {
+  font-size: 1em;
 }
 
 footer .contact {
@@ -245,6 +250,28 @@ footer .copyright {
   margin: 20px 0;
 }
 
+.thirds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.donate {
+  width:;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7021a;
+  border-radius: 30px;
+  text-align: center;
+}
+
+input {
+  align-items: center;
+  justify-content: center;
+}
 
 
 /*************Mobile Styles****************/
@@ -402,6 +429,11 @@ article .trip-pic {
   color: #39393a;
 }
 
+.apply-for-it a:hover {
+  color: red;
+}
+
+
  /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -548,14 +580,13 @@ article .trip-pic {
     header nav ul li {
     }
 
-    footer .content-wrapper {
-      width: 65%;
-    }
+  
 
     footer .footer-content {
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: row;
     }
 
     footer .copyright {
@@ -691,12 +722,10 @@ article .trip-pic {
   .slideshow-container {
   }
 
-  .numbertext {
-
+  .thirds {
+    width: 30%;
+    flex-wrap: nowrap;
   }
-
-  
-}
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),

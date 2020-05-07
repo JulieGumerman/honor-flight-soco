@@ -144,9 +144,7 @@ img {
 width: 100%;
 }
 
-figure {
 
-}
 
 address {
   font-style: normal;
@@ -209,7 +207,6 @@ header nav ul {
 
 header nav ul li {
   padding-right: 30px;
-  padding-left: ;
   justify-content: center;
 }
 
@@ -257,16 +254,6 @@ footer .copyright {
   width: 100%;
 }
 
-.donate {
-  width:;
-  padding: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f7021a;
-  border-radius: 30px;
-  text-align: center;
-}
 
 input {
   align-items: center;
@@ -281,7 +268,6 @@ main {
 }
 
 .mission {
-  padding-top: ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -549,12 +535,6 @@ article .trip-pic {
       font-size: 2.4em;
     }
 
-    h3, h4 {
-
-    }
-
-    h4 
-
     header a {
       font-size: 1.4em;
     }
@@ -589,10 +569,6 @@ article .trip-pic {
       justify-content: space-between;
       width: 60%;
     }
-
-    header nav ul li {
-    }
-
   
 
     footer .footer-content {
@@ -714,9 +690,7 @@ article .trip-pic {
   h1 {
     font-size: 5em;
   }
-  h2 {
 
-  }
 
   h3, h4 {
     font-size: 1.25em;
@@ -730,8 +704,6 @@ article .trip-pic {
     font-size: 1.3em;
   }
 
-  .slideshow-container {
-  }
 
   .thirds {
     width: 45%;
@@ -745,7 +717,7 @@ article .trip-pic {
     /* Style adjustments for high resolution devices */
 }
 
- 
+}
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
@@ -821,5 +793,3 @@ article .trip-pic {
         page-break-after: avoid;
     }
 }
-
-

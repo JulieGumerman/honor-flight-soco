@@ -168,7 +168,7 @@ header {
   padding: 15px 0;
 }
 
-header .content-wrapper {
+header .header {
   margin: 0;
   display: flex;
   justify-content: center;
@@ -567,27 +567,34 @@ article .trip-pic {
       border: solid purple 3px;
     }
 
-    header .content-wrapper {
+    header .header{
       margin: none;
-      width: 100%;
+      width: 90%;
       justify-content: space-between;
       border: solid salmon 5px;
     }
 
     .my-title {
-      width: 30%;
-      justify-content: center;
-      padding-left: 2em;
+      width: 42%;
+      justify-content: flex-start;
+      border: 2px navy solid;
     }
 
     header nav {
-      width: 50%;
+      width: 57%;
       justify-content: center;
+      border: 3px solid peachpuff;
     }
 
     header nav ul {
       justify-content: space-between;
-      width: 60%;
+      width: 100%;
+      border: 3px green solid;
+    }
+
+    header nav ul li {
+      border: 1px blue solid;
+      width: 33%;
     }
   
 
@@ -718,6 +725,14 @@ article .trip-pic {
 
   header a {
     font-size: 2em;
+  }
+
+  header .header {
+    width: 80%;
+  }
+
+   header nav {
+    width: 50%;
   }
 
   p {

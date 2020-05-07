@@ -149,6 +149,7 @@ width: 100%;
 address {
   font-style: normal;
 }
+
 .content-wrapper {
   width: 90%;
   margin: 40px 0;
@@ -161,6 +162,12 @@ header, footer {
   flex-flow: row wrap;
 }
 
+header {
+  background-color: #39393a;
+  color: #e3e5e8;
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   margin: 0;
   display: flex;
@@ -168,15 +175,11 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
 }
+
 header span {
   color: #f7021a;
 }
-header {
-  display: flex;
-  background-color: #39393a;
-  color: #e3e5e8;
-  padding: 15px 0;
-}
+
 
 .my-title {
   display: flex;
@@ -203,11 +206,16 @@ header nav ul {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding: 0px;
 }
 
 header nav ul li {
-  padding-right: 30px;
-  justify-content: center;
+  text-align: center;
+  width: 30%;
+}
+
+header nav ul li:hover {
+  background:  #f7021a;
 }
 
 footer {
@@ -556,13 +564,14 @@ article .trip-pic {
     /***header***/
     header {
       justify-content: space-around;
-      width: 100%;
+      border: solid purple 3px;
     }
 
     header .content-wrapper {
+      margin: none;
       width: 100%;
       justify-content: space-between;
-      /*flex-flow: row wrap;*/
+      border: solid salmon 5px;
     }
 
     .my-title {

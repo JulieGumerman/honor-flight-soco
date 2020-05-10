@@ -564,36 +564,31 @@ article .trip-pic {
     /***header***/
     header {
       justify-content: space-around;
-      border: solid purple 3px;
     }
 
     header .header{
       margin: none;
       width: 90%;
       justify-content: space-between;
-      border: solid salmon 5px;
     }
 
     .my-title {
       width: 42%;
       justify-content: flex-start;
-      border: 2px navy solid;
+
     }
 
     header nav {
       width: 57%;
       justify-content: center;
-      border: 3px solid peachpuff;
     }
 
     header nav ul {
       justify-content: space-between;
       width: 100%;
-      border: 3px green solid;
     }
 
     header nav ul li {
-      border: 1px blue solid;
       width: 33%;
     }
   
@@ -732,7 +727,7 @@ article .trip-pic {
   }
 
    header nav {
-    width: 50%;
+    width: 45%;
   }
 
   p {

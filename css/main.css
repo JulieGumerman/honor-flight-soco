@@ -285,6 +285,23 @@ main {
 
 }
 
+.announcement {
+  color: #f7021a;
+}
+
+.diverted {
+  color: #39393a;
+  font-size: 1em;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.diverted:hover {
+  background: #39393a;
+  color: #e3e5e8;
+}
+
 /***slide show***/
 * {box-sizing:border-box}
 
